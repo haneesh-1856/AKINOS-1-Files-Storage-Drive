@@ -34,10 +34,17 @@ Usage format:
  Process:
  
  1. First "home.php" is the start main file.
+ 
  2. If it is a new user then registration can be done and details will be uploaded to "try" table in "t1" database with the help of "registration.php".
+  
  3. Else user can login by using the details which will be verified by the "validation.php" file. 
+  
  4. Then user will be redirected to the "home1.php" file.
+  
  5. In "home1.php" file you can upload the required files to the database where the process is done by the "upload.php" file.
+  
  6. You can see the uploaded files by onclicking "click" or "files" which will be directed to the "allfiles.php" file usage.
+  
  7. Here all the uploaded can be verified and can also downloaded by using "Download" option with the help of "download.php" file functions usage.
+  
  8. The "logout" button calls the "logout.php" files function and redirects to the "home.php" file.
