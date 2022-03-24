@@ -22,7 +22,7 @@ Usage format:
   
   Step9: If done logout.
  
- Note: There must be a uploads folder to duplicate the uploaded file with a unique id in the same folder where php files exists.
+ Note: There must be a uploads folder, to duplicate the uploaded file with a unique id, in the same folder where php files exists.
  
  Note: The "ASD" Title will be expanded to its fullform on pressing it.
  
