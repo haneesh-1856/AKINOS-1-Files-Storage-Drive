@@ -27,3 +27,13 @@ Usage format:
  Server Connection:
   Here Server connection is done with the help of phpmyadmin local server and created database
   
+  
+ Process:
+ 
+ 1. First "home.php" is the start main file 
+ 2. If you are a new user the registration can be done and details will be uploaded to "try" table in "t1" database with the help of "registration.php"
+ 3. Else you can login by using the details which will be verified by the "validation.php" file 
+ 4. Then you will be redirected to the "home1.php" file 
+ 5. In "home1.php" file you can upload the required files to the database where the process is done by the "upload.php" file
+ 6. You can see the uploaded files by onclicking "view" or "files" which will be directed to the "allfiles.php" file usage
+ 7. Here all the uploaded can be verified and can also downloaded by using "Download" option with the help of "download.php" file functions usage
